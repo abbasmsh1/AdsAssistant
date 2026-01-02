@@ -10,13 +10,13 @@ A senior-level digital marketing strategist agent powered by LangChain and Mistr
 - **Interactive UI**: Responsive frontend with Spline 3D scenes, Spotlight effects, and a Vercel v0 style chat.
 
 ## Project Structure
-- `/backend`: FastAPI server with LangChain agent and Mistral AI.
+- `/api`: FastAPI server with LangChain agent and Mistral AI.
 - `/frontend`: React + Vite + Tailwind CSS + shadcn/ui.
 
 ## Setup
 
-### Backend
-1. `cd backend`
+### API (Backend)
+1. `cd api`
 2. Create virtual environment: `python -m venv venv`
 3. Activate venv: `.\venv\Scripts\activate` (Windows) or `source venv/bin/activate` (Mac/Linux)
 4. Install dependencies: `pip install -r requirements.txt`
